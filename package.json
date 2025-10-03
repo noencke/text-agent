@@ -13,7 +13,7 @@
   "dependencies": {
     "@fluidframework/tree": "2.63.0-358419",
     "@fluidframework/tree-agent": "2.63.0-358419",
-    "@langchain/openai": "^0.6.12",
+    "@langchain/openai": "^0.6.14",
     "fluid-framework": "2.63.0-358419",
     "highlight.js": "^11.11.1",
     "react": "^18.3.1",

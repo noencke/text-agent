@@ -25,9 +25,12 @@ function createAgent(view: TreeViewAlpha<typeof Root>) {
   const apiKey: string = (import.meta as unknown as { env: Record<string, string | undefined> }).env.VITE_OPENAI_API_KEY || '';
   return createSemanticAgent(
     new ChatOpenAI({
-      model: 'gpt-4o',
+      model: 'gpt-5-2025-08-07',
       apiKey,
-      maxTokens: 8000,
+      reasoning: {
+        effort: 'high',
+      },
+      maxTokens: 20000,
     }),
     view,
     {
