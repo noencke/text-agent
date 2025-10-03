@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/main.tsx","./src/vite-env.d.ts","./src/components/hellocard.tsx","./src/context/themecontext.tsx","./src/hooks/usecounter.ts","./src/tests/app.test.tsx","./src/tests/hellocard.test.tsx","./src/tests/setup.ts","./src/tests/vitest-env.d.ts"],"errors":true,"version":"5.9.3"}
